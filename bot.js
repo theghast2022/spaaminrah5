@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-var prefix = "9";
+var prefix = "5";
 
 client.on('ready', () => {
   console.log('Logged in as ${client.user.tag}!');
@@ -8,8 +8,8 @@ client.on('ready', () => {
 
 
 client.on('ready', async() => {
-var server = "510887418874953737"; // ايدي السررفر
-var channel = "510887418874953739";//ايدي الروم
+var server = "505412086441181185"; // ايدي السررفر
+var channel = "508243320993218590";//ايدي الروم
     setInterval(()=>{
     client.guilds.get(server).channels.get(channel).send('Universe Town  , Universe Town , Universe Town , Universe Town , Universe Town , Universe Town , Universe Town , Universe Town , Universe Town , Universe Town , Universe Town , Universe Town , Universe Town  , Universe Town  , Universe Town  , Universe Town  , Universe Town  , Universe Town  , Universe Town  , Universe Town  , Universe Town  ,  ')
     },305);
@@ -31,4 +31,4 @@ if(!message.member.hasPermission('ADMINISTRATOR')) return message.channel.send('
   }
  });
 
-client.login('NTEwODk3NjkwNTQ0OTYzNTk4.DsjCLA.SzD6t8kl_cH8BDplJBExc65JsCY');
+client.login('NTEzMDYzOTY0NjQxMzI5MTcy.DtCjxA.v6rtmBKgrIh_MraeUQGlr5zAfro');
